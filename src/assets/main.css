@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 1px solid red;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #fff; /* Optional: to remove white background flashes */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    overflow-y: auto;
+    padding: 0;
+    margin: 0;
+}
+
+#app {
+    width: 100vw;
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0;
+    max-width: 100%;
+
+}
+
+.title {
+    text-align: center;
+    font-size: 1.3rem;
+    color: #2c3e50;
+    width: 100%;
+    padding: 1rem 1rem 1rem 1rem;
+    font-family: Arial, sans-serif;
+}
