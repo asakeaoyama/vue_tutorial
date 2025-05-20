@@ -12,6 +12,7 @@
     <div class="content">
       <router-view />
     </div>
+
     <Footer />
 
 
@@ -27,12 +28,13 @@
 }
 
 .content {
+  height: fit-content;
   flex: 1;
-  padding: 45px 10rem;
+  margin: 0;
   background: #ffffff;
   display: flex;
   flex-direction: column;
-  overflow: auto;
+  overflow-y: auto;
 }
 
 </style>

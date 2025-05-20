@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
 }
 
 html, body {
@@ -21,7 +21,6 @@ html, body {
     padding: 0px;
     margin: 0;
     max-width: 100%;
-
 }
 
 .title {
@@ -31,4 +30,15 @@ html, body {
     width: 100%;
     padding: 1rem 1rem 1rem 1rem;
     font-family: Arial, sans-serif;
+    height: 100vh;
+}
+
+.page {
+    height: fit-content;
+    flex: 1;
+    padding: 20px 12rem 0px 12rem;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
 }

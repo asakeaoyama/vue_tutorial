@@ -12,13 +12,15 @@
 
 <style scoped>
 .footer {
-  background-color: #2c3e50;
-  color: white;
-  padding: 1rem 1rem;
+  background-color: #dedbde;
+  color: #2c3e50;
+  padding: 0.3rem 1rem;
   width: 100%;
   text-align: center;
   margin: 0;
   justify-content: space-around;
+  max-height: 40px;
+  align-content: center;
 }
 
 .footer-container {
@@ -26,9 +28,11 @@
   margin: 0 auto;
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   gap: 0.5rem;
+  justify-content: center;
+  align-content: center;
 }
 
 .footer-links {
@@ -40,7 +44,7 @@
 }
 
 .footer-links a {
-  color: white;
+  color: #2c3e50;
   text-decoration: none;
   font-weight: 500;
 }
