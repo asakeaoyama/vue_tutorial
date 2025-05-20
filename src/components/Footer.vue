@@ -19,8 +19,9 @@
   text-align: center;
   margin: 0;
   justify-content: space-around;
-  max-height: 40px;
+  height: 40px;
   align-content: center;
+
 }
 
 .footer-container {

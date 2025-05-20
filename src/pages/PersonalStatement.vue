@@ -4,9 +4,7 @@ import selfie from '@/assets/images/selfie.jpg'
 
 <template>
   <div class="page">
-    <div class="title">
-      <h1>Personal Information</h1>
-    </div>
+    <h1 class="title">Personal Information</h1>
     <br>
     <div class="info">
       <h3>Gabriel Lin</h3>
@@ -96,6 +94,7 @@ import selfie from '@/assets/images/selfie.jpg'
   text-align: left;
 }
 .headshot {
+  width: auto;
   max-width: 25%;
   height: auto;
   box-sizing: border-box;
@@ -103,18 +102,17 @@ import selfie from '@/assets/images/selfie.jpg'
 .up_area {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  padding: 1rem;
+  align-items: center;
+  padding: 1rem 3rem 1rem 3rem;
   background-color: #f9f9f9;
   color: #333;
   position: relative;
-  max-height: 1000px;
-  max-height: 500px;
 }
 .key_value {
   width: 60%;
   font-size: 1.3rem;
   word-wrap: break-word;
+  text-align: left;
 }
 .statement {
   visibility: visible;

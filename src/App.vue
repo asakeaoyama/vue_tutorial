@@ -21,20 +21,17 @@
 
 <style scoped>
 .layout {
-  display: flex;
-  flex-direction: column;
+
   min-height: 100vh;
   width: 100%;
+  height: 100vh;
 }
 
 .content {
   height: fit-content;
-  flex: 1;
-  margin: 0;
+
+  padding: 60px 0 10px 0;
   background: #ffffff;
-  display: flex;
-  flex-direction: column;
-  overflow-y: auto;
 }
 
 </style>

@@ -14,7 +14,8 @@
 
 <style scoped>
 .navbar {
-  position: sticky;
+  width: 100vw;
+  position: fixed;
   top: 0;
   z-index: 1000;
   background-color: #2c3e50;
